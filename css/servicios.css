@@ -1,0 +1,78 @@
+.servicios{
+    text-align: center;
+    background-color: rgb(208, 222, 233);
+    padding: 0 1rem;
+}
+
+.servicios-titulo{
+    margin: 0;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    color: rgb(37, 37, 37);
+    font-weight: 700;
+}
+
+.servicios-servicio{
+    padding-top: 4rem;
+}
+
+.servicios-servicio .icono{
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    line-height: 5rem;/*para centrar verticalmente*/
+    border-radius: 50%;
+    background-color: rgb(53, 202, 212);
+    cursor: pointer;
+    color: white;
+}
+
+.servicios-servicio .titulo{
+    font-size: 1.5rem;
+    font-size: 600;
+}
+
+.servicios-servicio .texto{
+    margin: 0;
+}
+
+.servicios .boton{
+    display: inline-block;
+    width: 125px;
+    background-color: rgb(53, 202, 212);
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.servicios .boton:hover{
+   
+    background-color: rgb(37, 37, 37);
+ 
+}
+
+@media screen and (min-width:768px){
+
+    .servicios-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .servicios-servicio{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:996px){
+
+    .servicios-servicio{
+        width: 20%;
+    }
+
+}

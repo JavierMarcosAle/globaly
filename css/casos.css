@@ -1,0 +1,94 @@
+.casos{
+    text-align: center;
+    color: white;
+ 
+}
+
+.casos-izquierda{
+    display: none;
+    
+}
+
+.casos-derecha{
+    background-image: url(https://images2.alphacoders.com/536/thumb-1920-536245.jpg);
+    background-position: right bottom;
+    padding: 0 1rem;
+}
+
+.casos-derecha .contenedor{
+    
+    text-align: left;
+}
+
+.casos-derecha .titulo{
+    margin-top: 0;
+    padding-top: 2rem;
+    font-size: 3.5rem;
+}
+
+.casos-derecha .texto1{
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.casos-derecha .texto2{
+    padding-top: 1rem;
+}
+
+.casos-derecha .boton{
+    display: inline-block;
+    width: 125px;
+    background-color: transparent;
+    border: 2.5px solid white;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.casos-derecha .boton:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (min-width:768px){
+
+    .casos{
+        display: flex;
+        height: 100vh;
+    }
+    .casos-izquierda{
+        display: block;
+        background-image: url(https://images.pexels.com/photos/2765871/pexels-photo-2765871.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        background-position: center;
+        width: 50%;
+    }
+
+    .casos-derecha{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:996px){
+    .casos-derecha .titulo{
+        font-size: 3.5rem;
+    }
+
+    .casos-derecha .texto1{
+        font-size: 2rem;
+    }
+
+    .casos-derecha .texto2{
+        font-size: 1.25rem;
+    }
+
+    .casos-derecha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}

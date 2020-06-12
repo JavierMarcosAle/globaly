@@ -1,0 +1,95 @@
+/*========================
+CABECERA DEL MENÚ
+==========================*/
+
+.header-menu{
+    padding: .75rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    text-align: right;
+    color: rgb(54, 54, 54);
+    position: relative;
+}
+
+.header-menu-icono span{
+    font-weight: 500;
+}
+
+.header-menu-icono i{
+    cursor: pointer;
+}
+
+/*========================
+LINKS DEL MENÚ
+==========================*/
+.header-menu-links{
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    top:100%;
+    left:0;
+    width: 100%;
+    display: none;
+}
+
+.menu-display{
+    display: block;
+}
+
+.header-menu-links .menu-link-ul{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-link-li:hover{
+    background-color: rgb(53, 202, 212);
+    cursor: pointer;
+}
+
+.header-menu-links .menu-link-li{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.header-menu-links .link-a{
+    display: inline-block;
+    padding: .75rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    
+}
+
+@media screen and (min-width:768px){
+
+    .header-menu-icono{
+        display: none;
+    }
+
+    .header-menu-links{
+        position: static;
+        display: block;
+    }
+
+    .menu-link-ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-link-li:first-child i{
+        display: none;
+    }
+
+    .header-menu-links .menu-link-li{
+        border-bottom: 0;
+
+    }
+
+    .header-menu{
+        padding-bottom: 0;
+    }
+
+}

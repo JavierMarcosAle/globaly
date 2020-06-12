@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/*========================
+PRIMERA CABECERA
+==========================*/
+.header-redes-sociales{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+.header-redes-sociales .facebook,
+.header-redes-sociales .twitter,
+.header-redes-sociales .google,
+.header-redes-sociales .linkedin{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;/*para centrar verticalmente*/
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(53, 202, 212);
+    cursor: pointer;
+    color: white;
+    margin-right: .5rem;
+}
+
+/*========================
+SEGUNDA CABECERA
+==========================*/
+
+.header-contacto{
+    height: 7vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 400;
+}
+
+.header-contacto i{
+    color: rgb(53, 202, 212);
+    margin-right: .5rem;
+    font-size: 1.25rem;
+}
+
+/*========================
+LOGO CABECERA
+==========================*/
+
+.header-logo{
+    height: 7vh;
+    text-align: center;
+}

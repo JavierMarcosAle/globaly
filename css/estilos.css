@@ -1,0 +1,50 @@
+@import url(header.css);
+@import url(menu.css);
+@import url(banner.css);
+@import url(nosotros.css);
+@import url(servicios.css);
+@import url(casos.css);
+@import url(consejos.css);
+@import url(performances.css);
+@import url(consulta.css);
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.separador{
+    display: inline-block;
+    width: 20%;
+    height: 2.5px;
+    background-color: rgb(53, 202, 212);
+}
+
+@media screen and (min-width:768px){
+
+    .separador{
+        width: 10%;
+    }
+
+}
+
+.footer{
+    padding: 2rem 0;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+}
+
+.footer p{
+    margin: 0;
+    margin-top: .5rem;
+    color: white;
+}
+
+

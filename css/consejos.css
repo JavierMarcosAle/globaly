@@ -1,0 +1,92 @@
+.consejos{
+    text-align: center;
+    background-color: rgb(208, 222, 233);
+    padding: 0 1rem;
+}
+
+.consejos .boton{
+    display: inline-block;
+    width: 125px;
+    background-color: rgb(53, 202, 212);
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.consejos .boton:hover{
+   
+    background-color: rgb(37, 37, 37);
+ 
+}
+
+
+.consejos-titulo{
+    margin: 0;
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    color: rgb(37, 37, 37);
+    font-weight: 700;
+}
+
+.consejos-consejo{
+    margin-top: 4rem;
+    
+}
+
+.consejos-consejo .imagen{
+    width: 100%;
+}
+
+.consejos-consejo .titulo{
+    margin:0;
+    padding-top: 1rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.consejos-consejo .texto{
+    margin:0;
+    padding-top: 1rem;
+}
+
+.consejos-consejo-encabezado{
+    padding-top: 1rem;
+    text-align: left;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.consejos-consejo-encabezado .fecha{
+    color: rgb(53, 202, 212);
+    font-weight: 500;
+}
+
+.consejos-consejo-encabezado .autor{
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:768px){
+
+    .consejos-flex{
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: space-between;
+    }
+
+    .consejos-consejo{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (min-width:996px){
+
+    .consejos-consejo{
+        width: 30%;
+    }
+
+}
